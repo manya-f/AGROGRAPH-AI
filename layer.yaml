@@ -1,0 +1,462 @@
+id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+name: Pesticide Impact Agriculture Analysis
+type: 1
+canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+blocks:
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Generates a multi-line chart showing year-over-year growth rates (%)
+    for four pesticide categories (herbicides, insecticides, fungicides, other) against
+    a dark background with legend and gridlines.
+  height: 1000
+  id: 0480818b-d62b-495e-aa39-1bf6641ef842
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Pesticide Usage Growth Rate Chart
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 8000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Generates a line chart showing pesticide cost trends by category (herbicides,\
+    \ insecticides, fungicides, other, total) from 2000\u20132022, with USD per hectare\
+    \ on y-axis, dark theme styling, and 2022 total cost annotation."
+  height: 1000
+  id: 0758e9de-1419-4bb6-a0c3-ca9e36c97c7a
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Pesticide Cost Trend Chart
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 10000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Creates a horizontal stacked bar chart visualizing crop yield losses
+    across five pest categories (weeds, insects, pathogens, viruses, nematodes), sorted
+    by total loss percentage with labeled segments and dark theme styling.
+  height: 1000
+  id: 0ac27866-6806-480c-b568-a1a76d6a5309
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Crop Yield Loss Chart
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 14000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Builds a regional weed intelligence database (6 global regions) with
+    seasonal risk profiles and control strategies, then calculates pesticide cost
+    savings from AI-assisted weed detection based on prediction confidence and severity
+    levels.
+  height: 1000
+  id: 115f7534-2fc6-4c0c-b670-cabb6ec36c93
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Regional Intelligence & Cost-Impact Connector
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 5800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Creates a bubble chart comparing pesticide categories by environmental
+    impact (EIQ) vs. cost, with bubble size representing usage share. Quadrant shading
+    highlights trade-offs between harm and expense.
+  height: 1000
+  id: 2f814ba7-d61d-4c58-b94b-4395f601e75f
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Environmental Impact Chart
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 12000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Profiles and validates pesticide usage, cost, yield loss, and environmental
+    data across multiple DataFrames. Generates null counts, data types, descriptive
+    statistics, and performs range checks to ensure data quality.
+  height: 1000
+  id: 2fe80eb1-c763-470f-be18-306b5de6e241
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Clean & Explore Data
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "API documentation for a Pesticide Savings Calculator service. Defines\
+    \ two endpoints: `/health` for service status checks and `/calculate` for computing\
+    \ pesticide reduction & cost savings based on farm size, usage rates, and AI detection\
+    \ efficiency (20\u201340%). Includes request/response schemas, validation rules,\
+    \ benchmarks, cURL/Python examples, and quick-start guide."
+  height: 1000
+  id: 3552dfb3-9552-4373-ae17-d8796fb21566
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: API Documentation
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 22000
+  y: 2800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: 'Generates 4 visualization charts comparing AI-assisted farming vs
+    traditional methods: pesticide usage by category, cost savings per hectare, yield
+    retention gains per crop, and a summary table of key metrics across scenarios
+    (Traditional, AI 20%/30%/40% detection efficiency).'
+  height: 1000
+  id: 59490bae-e45b-42fa-9cd9-ef8e189dff8d
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: AI vs Traditional Farming Charts
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 18000
+  y: 1400
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Builds a comprehensive plant disease recommendation database mapping
+    38+ crop labels to chemical pesticides, organic alternatives, and prevention strategies
+    for rapid decision support.
+  height: 1000
+  id: 5d09b860-aaf6-42f4-9407-95331ce37988
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Recommendation Engine
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 5800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Presents key findings from AI early-detection analysis, showing 13\u2013\
+    26% pesticide reduction, $8.1\u2013$16.2B annual global savings, and disproportionate\
+    \ environmental gains (\u221240% for harmful insecticides), with breakdowns by\
+    \ scenario, cost-per-hectare impact, and ecological benefits."
+  height: 1000
+  id: 5da32b9c-0ae1-4361-bb23-5b4224cf605f
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Analysis Summary
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 20000
+  y: 1400
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Simulates the impact of AI-assisted early detection on farming across
+    three efficiency gains (20%, 30%, 40%). Models pesticide usage reduction, cost
+    savings per hectare, and yield retention for baseline vs AI-enhanced scenarios.
+  height: 1000
+  id: 60fd9484-7466-40db-976e-1f3635935232
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: AI Detection Simulation
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 16000
+  y: 1400
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Validates a weed detection pipeline by generating a comprehensive table
+    of all 38 PlantVillage labels with disease categories, severity scores, chemical/organic
+    treatment recommendations, and cost-impact metrics (pesticide reduction, cost
+    savings, yield improvement) at 80% model confidence.
+  height: 1000
+  id: b47c358b-a130-42c6-bf7b-12a9b251e340
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Pipeline Validation Table
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 6000
+  y: 5800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Calculates pesticide savings for farms using AI-assisted detection
+    (20%, 30%, or 40% efficiency). Outputs pesticide reduction (kg & %), cost savings
+    (USD), and efficiency gains based on farm size and current usage rates.
+  height: 1000
+  id: b6ba3b96-1d6c-4511-be9f-c42658be3fb7
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Pesticide Savings Calculator
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 20000
+  y: 2800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: 'Complete AgroGraph AI single-page application with 8 sections: hero,
+    sidebar navigation, weed detection AI upload, pest recommendations, savings calculator,
+    analytics charts, regional intelligence, and mobile nav. Pure HTML5/CSS3/JS, self-contained
+    with no external dependencies.'
+  height: 1000
+  id: c603d634-79e2-479f-9b6b-584ffc1e1887
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: AgroGraph AI HTML App
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 0
+  y: 8800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Creates a stacked area chart visualizing global pesticide usage by\
+    \ type (herbicides, insecticides, fungicides, other) from 2000\u20132022, showing\
+    \ trends in active ingredient quantities with dark theme styling and total 2022\
+    \ annotation."
+  height: 1000
+  id: c62abae8-8c7e-420b-a53f-a97d817e2992
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Pesticide Usage Trends Chart
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 6000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Sets up EfficientNetB0 weed & disease classifier with 38 PlantVillage\
+    \ crop conditions. Maps labels to categories (healthy/disease/pest) and severity\
+    \ levels (0\u20133), provides prediction wrapper, builds validation label map."
+  height: 1000
+  id: cef39db9-58eb-4f2c-8ed0-0ec77a7b0c78
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Weed Detection Model & Label Map
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 5800
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Summarizes AI-assisted early detection impact across pesticide reduction,
+    cost savings, crop prioritization, and category analysis. Projects 26% pesticide
+    usage cut, $34k/year savings per 1,000ha farm, and ~$16.2B global annual savings
+    at 40% AI efficiency; identifies cotton, rice, maize as highest-ROI crops and
+    insecticides as largest reduction opportunity.
+  height: 1000
+  id: dd8a43c5-5843-4826-8d84-781271640e52
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Key Insights
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 16000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Loads four pesticide datasets (2000\u20132022): global usage by type\
+    \ in tonnes, crop yield loss percentages by pest category, farmer pesticide costs\
+    \ in USD/hectare, and environmental impact scores. Prepares data for agricultural\
+    \ and sustainability analysis."
+  height: 1000
+  id: de875a99-6524-415a-a417-bdc8f70a81cc
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Load Pesticide Datasets
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: "Generates a comprehensive pesticide industry summary: usage trends\
+    \ (2000\u20132022), cost per hectare, yield loss by crop, environmental impact\
+    \ scores (EIQ/toxicity), and headline KPIs for informed decision-making."
+  height: 1000
+  id: f45eccea-8239-4566-ab09-609bff7975bf
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Summary Statistics
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 0
+- auto_size: false
+  canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  compute_settings: null
+  description: Generates a complete single-page HTML application for AgroGraph AI,
+    a precision agriculture platform with weed detection, pesticide savings calculator,
+    recommendations, analytics, and regional intelligence features.
+  height: 1000
+  id: f4737377-760a-49ee-a4e1-47ccccc27a84
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  name: Write AgroGraph AI HTML
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 8800
+edges:
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 00bd67fc-9989-4f4b-b487-7fdc94f3718e
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: c62abae8-8c7e-420b-a53f-a97d817e2992
+  target: 0480818b-d62b-495e-aa39-1bf6641ef842
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 0828e359-250c-4b86-a2e9-5a9f4a82940b
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 5d09b860-aaf6-42f4-9407-95331ce37988
+  target: 115f7534-2fc6-4c0c-b670-cabb6ec36c93
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 5314c976-cfe4-4195-aac7-6de931addac1
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: b6ba3b96-1d6c-4511-be9f-c42658be3fb7
+  target: 3552dfb3-9552-4373-ae17-d8796fb21566
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 538c6ac5-bc55-4bf7-b1dd-917f332827e7
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: f45eccea-8239-4566-ab09-609bff7975bf
+  target: c62abae8-8c7e-420b-a53f-a97d817e2992
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 5a5f0c09-3c79-4fb1-bf62-d6283fc213f1
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 0758e9de-1419-4bb6-a0c3-ca9e36c97c7a
+  target: 2f814ba7-d61d-4c58-b94b-4395f601e75f
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 72f7dc65-f039-40ae-9a60-43e26f20d1ab
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 115f7534-2fc6-4c0c-b670-cabb6ec36c93
+  target: b47c358b-a130-42c6-bf7b-12a9b251e340
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 73a2dab2-bf2e-4b92-b123-8aef81df138d
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 59490bae-e45b-42fa-9cd9-ef8e189dff8d
+  target: 5da32b9c-0ae1-4361-bb23-5b4224cf605f
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 73ddac34-4cd0-4c97-ac06-1bc64c3e1caa
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 0480818b-d62b-495e-aa39-1bf6641ef842
+  target: 0758e9de-1419-4bb6-a0c3-ca9e36c97c7a
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 817e9021-6f5b-411b-8410-f5fa8a96b89d
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: c603d634-79e2-479f-9b6b-584ffc1e1887
+  target: f4737377-760a-49ee-a4e1-47ccccc27a84
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: 9fca7a5f-e92e-4003-9b52-3fac5a69ae4c
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 0ac27866-6806-480c-b568-a1a76d6a5309
+  target: dd8a43c5-5843-4826-8d84-781271640e52
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: af42a330-f70b-44be-9aff-775f86a0c80f
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 2fe80eb1-c763-470f-be18-306b5de6e241
+  target: f45eccea-8239-4566-ab09-609bff7975bf
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: bc46f804-91d9-4965-9a9a-b86b47e2995b
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 59490bae-e45b-42fa-9cd9-ef8e189dff8d
+  target: b6ba3b96-1d6c-4511-be9f-c42658be3fb7
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: bd8bcd4b-40e5-4a5c-853b-709f134a20ba
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: cef39db9-58eb-4f2c-8ed0-0ec77a7b0c78
+  target: 5d09b860-aaf6-42f4-9407-95331ce37988
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: ce7f79ff-4b9e-414c-b93a-9d4a12c167c7
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 0ac27866-6806-480c-b568-a1a76d6a5309
+  target: 60fd9484-7466-40db-976e-1f3635935232
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: e20c921d-cd71-4eb0-b5e7-92e253781dc7
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: de875a99-6524-415a-a417-bdc8f70a81cc
+  target: 2fe80eb1-c763-470f-be18-306b5de6e241
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: e5fb7953-f7e0-4c7b-9981-89e32492ee4e
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 60fd9484-7466-40db-976e-1f3635935232
+  target: 59490bae-e45b-42fa-9cd9-ef8e189dff8d
+- canvas_id: ec7a9801-c47d-44dd-8db8-11d8ba0a5bf1
+  id: fa04d3b3-82a3-42ca-9bc8-f0ffe7489df3
+  layer_id: 8b2a8a45-aa3c-4de9-b557-fc3b71668d81
+  source: 2f814ba7-d61d-4c58-b94b-4395f601e75f
+  target: 0ac27866-6806-480c-b568-a1a76d6a5309
