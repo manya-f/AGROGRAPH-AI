@@ -25,7 +25,9 @@ AI-powered precision agriculture platform to reduce pesticide usage and improve 
 ## 🌐 Live Demo
 
 👉 https://manya-f.github.io/AGROGRAPH-AI/
-
+---- 
+## Video Explanation 
+https://youtu.be/VvtbmNJRo1M
 ---
 
 ## 🧠 How It Works
